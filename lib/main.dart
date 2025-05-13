@@ -4,10 +4,9 @@ import 'package:docflow/core/theme/theme.dart';
 import 'package:flutter/material.dart';
 import 'package:docflow/pages/home_page.dart';
 import 'package:docflow/pages/chat_page.dart';
-import 'package:docflow/providers/notice_provider.dart';
 
 void main() {
-  runApp(NoticeProvider(child: const MyApp()));
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {

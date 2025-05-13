@@ -10,15 +10,18 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_vector_icons: ^2.0.0
+  http: ^0.13.6
+  provider: ^6.1.0
+  json_serializable: ^6.6.2
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^5.0.0
   flutter_launcher_icons: ^0.14.3
-  provider: ^6.1.1
   intl: ^0.18.1
   flutter_animate: ^4.1.1+1
+  build_runner: ^2.4.5
 
 flutter_icons:
   android: true
